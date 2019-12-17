@@ -62,6 +62,8 @@ createBoard();
 
 function resetFunc() {
 	createBoard();
+	scoreNum = 0;
+	document.getElementById('scoreId').innerHTML = 'Score: ';
 };
 
 document.querySelector('#reset').addEventListener('click',resetFunc);
