@@ -31,6 +31,11 @@ h2 {
 	font-weight: 600;
 	font-size: 20px;
 }
+p {
+	font-family: "Droid Serif";
+	line-height: 26px;
+	font-size: 18px;
+}
 header {
 	background-color: #F15B31;
 	color: #FFFFFF;
@@ -76,4 +81,16 @@ footer {
 .name {
 	color: #F15B31;
 	font-weight: 700;
+}
+.checker {
+	background: pink;
+	height: 283px;
+	width: 180px;
+	font-size: 150px;
+	margin: 40px 8px 40px 8px;
+	/*float: left;*/
+	
+}
+#floater {
+	float: left;
 }
